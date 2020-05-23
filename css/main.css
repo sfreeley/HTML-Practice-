@@ -40,13 +40,14 @@ footer {
 }
 
 
-.button {
+[type="button"] {
     border-radius: 5px;
+    padding: 10px;
     background-color:lightskyblue;
     border: solid black 2px;
     text-align: center;
     font-size: 15px;
-    margin: 10px;
+    margin: 5px;
 }
 
 

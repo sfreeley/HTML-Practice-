@@ -13,40 +13,48 @@
     </header>
 
     <article class="profile">
-        <section class="profile__basic_information">
-            <!-- name of representative -->
-            <h2>Mark Green</h2>
-            <!-- image component -->
-                <img src="images/rep mark_green.jpeg" class="image__portrait" alt="Congressman portrait">
-                 <!-- political affiliation -->
-                 <p>Republican</p>
-                 <!-- district information -->
-                 <p>Tennessee's 7th congressional district</p>
-        </section>
-        <!-- information about committies representative is serving on -->
-        <section class="profile__committees">
-            <h3>Committees</h3>
-                <p>Mark Green sits on the following committees:</p>
-                <!-- list of committies and subcommitties he currently sits on -->
-                <ul>
-                    <li>House Committee on Homeland Security</li>
-                        <ul>
-                            <li>Cybersecurity Subcomittee</li>
-                            <li>Infrastructure Protection and Innovation Subcomittee</li>
-                            <li>Intelligence and Counterterrorism Subcomittee</li>
-                        </ul>
-                    <li>House Committee on Oversight and Reform</li>
-                        <ul>
-                            <li>National Security Subcomittee</li>
-                        </ul>
+        <section class="section_profile">
+            <div class="flex-container">
+                <div class="flex-item">
+                    <h2>Mark Green: Republican</h2>
+                    <h3>Tennessee's 7th Congressional District</h3>
+                    <img src="images/rep mark_green.jpeg" class="image__portrait" alt="Congressman portrait">
+                </div> 
+        
+                <div class="flex-item">
+                    <h2>Committies</h2>
+                    <h3>Mark Green sits on the following committies:</h3>
+                    <ul>
+                        <li>House Committee on Homeland Security</li>
+                            <ul>
+                                <li>Cybersecurity Subcomittee</li>
+                                <li>Infrastructure Protection and Innovation Subcomittee</li>
+                                <li>Intelligence and Counterterrorism Subcomittee</li>
+                            </ul>
+                        <li>House Committee on Oversight and Reform</li>
+                            <ul>
+                                <li>National Security Subcomittee</li>
+                            </ul>
+                    </ul> 
+                </div>       
+       
+                <div class="flex-item">
+                    <h2>Legislation</h2>
+                    <h3>Some of Mark Green's sponsored legislation include: </h3>
+                    <ul>
+                        <li><a href="https://www.govtrack.us/congress/bills/116/hr6598" target="_blank">H.R. 6598: SOS ACT Act</a></li>
+                        <li><a href="https://www.govtrack.us/congress/bills/116/hr5957" target="_blank">H.R. 5957: K2 Veterans Toxic Exposure Accountability Act of 2020</a></li>
+                        <li><a href="https://www.govtrack.us/congress/bills/116/hr5754" target="_blank">H.R. 5754: Rural ER Access Act</a></li>
                     </ul>
-        </section>
-        <!-- section for the link to his sponsored legislation -->
-        <section class="profile__legislation">
-            <h3>Legislation</h3>
-            <!-- link to his sponsored legislation -->
-            <a href="https://www.govtrack.us/congress/bills/browse?sponsor=412819" target=_blank>Sponsored Legislation</a>
+                    <p>For the full list and more detailed view of his sponsored legislation: <a href="https://www.govtrack.us/congress/bills/browse?sponsor=412819" target=_blank class="legislation">Sponsored Legislation</a></p> 
+                </div> 
+            </div> 
         </section>
     </article>
+
+    <footer>
+        <button class="button"><a href="https://markgreen.house.gov/" target="_blank">Mark's Green's Official Webpage</a></p> 
+    </footer>
 </body>
 </html>
+
